@@ -45,9 +45,9 @@ const Auth = () => {
           </Link>
         </>
       )}
+      <br />
       {!isLoggedIn && (
         <Button leftIcon={<FaGoogle />} onClick={() => handleAuth()}>
-          Login with Google
         </Button>
       )}
     </Box>
